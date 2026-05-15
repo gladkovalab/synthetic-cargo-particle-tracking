@@ -1,0 +1,22 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+
+# macOS / editor
+.DS_Store
+
+# Data and outputs (expected to live one level up; ignored if symlinked in)
+input_folder/
+output_folder/
+plots/
+tracks/
+
+# Aggregated CSVs the notebook can produce
+final_y_comparison_table.csv
+final_y_comparison.csv
+
+# Local agent state
+.claude/
