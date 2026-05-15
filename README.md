@@ -1,6 +1,6 @@
 # Synthetic cargo particle tracking
 
-Jupyter notebook for analysing single-particle tracks of the MIRO synthetic cargo across TRAK isoform conditions. Reads the per-cell CSV exports produced by the Fiji [TrackMate](https://imagej.net/plugins/trackmate/) plugin, rotates each cell's tracks to a common axis so backwards-vs-forwards is well-defined, and produces per-condition speed distributions and forward/backward proportions.
+Jupyter notebook for analysing single-particle tracks of the Miro1 synthetic cargo across TRAK isoform conditions. Reads the per-cell CSV exports produced by the Fiji [TrackMate](https://imagej.net/plugins/trackmate/) plugin, rotates each cell's tracks to a common axis so backwards-vs-forwards is well-defined, and produces per-condition speed distributions and forward/backward proportions.
 
 Companion to the imaging-pipeline repos under [`gladkovalab`](https://github.com/gladkovalab) — see the paper for the full set.
 
@@ -51,13 +51,13 @@ The `cell_orientation_coordinates.xlsx` workbook needs an `angles_per_cell` shee
 This is a plain Jupyter notebook with no compiled or packaged components. Open it with:
 
 ```bash
-jupyter notebook trackmate_analyser.ipynb
+jupyter notebook trak_mediated_miro1_cargo_tracking.ipynb
 ```
 
 or
 
 ```bash
-jupyter lab trackmate_analyser.ipynb
+jupyter lab trak_mediated_miro1_cargo_tracking.ipynb
 ```
 
 ### Dependencies
