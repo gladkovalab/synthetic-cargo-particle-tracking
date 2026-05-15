@@ -1,5 +1,7 @@
 # Synthetic cargo particle tracking
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20218241.svg)](https://doi.org/10.5281/zenodo.20218241)
+
 Jupyter notebook for analysing single-particle tracks of the Miro1 synthetic cargo across TRAK isoform conditions. Reads the per-cell CSV exports produced by the Fiji [TrackMate](https://imagej.net/plugins/trackmate/) plugin, rotates each cell's tracks to a common axis so backwards-vs-forwards is well-defined, and produces per-condition speed distributions and forward/backward proportions.
 
 Companion to the imaging-pipeline repos under [`gladkovalab`](https://github.com/gladkovalab) — see the paper for the full set.
