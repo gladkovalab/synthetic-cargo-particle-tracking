@@ -4,7 +4,10 @@
 
 Jupyter notebook for analysing single-particle tracks of the Miro1 synthetic cargo across TRAK isoform conditions. Reads the per-cell CSV exports produced by the Fiji [TrackMate](https://imagej.net/plugins/trackmate/) plugin, rotates each cell's tracks to a common axis so backwards-vs-forwards is well-defined, and produces per-condition speed distributions and forward/backward proportions.
 
-Companion to the imaging-pipeline repos under [`gladkovalab`](https://github.com/gladkovalab) — see the paper for the full set.
+Sister repos under [`gladkovalab`](https://github.com/gladkovalab):
+
+- [`synthetic-cargo-accumulation-pipeline`](https://github.com/gladkovalab/synthetic-cargo-accumulation-pipeline) — image-analysis pipeline quantifying Miro1 synthetic-cargo distribution in fixed microscopy (nuclear segmentation, perinuclear Gini, edge-spot detection)
+- [`micropattern-cell-analysis`](https://github.com/gladkovalab/micropattern-cell-analysis) — micropattern-constrained imaging analysis (wedge-r profiles, slab metrics)
 
 ## What the notebook does
 
